@@ -22,7 +22,6 @@
 </head>
 <body>
     <a-scene>
-        <a-sound src="src: url(sad-meow-song.mp3)" autoplay="true" position="-3 3 5"></a-sound>
         <a-torus animation="property: radius; to: 1; dur: 1000; easing: linear; loop: true" color="cyan" arc="270" radius="5" radius-tubular="0.1"></a-torus>
         <a-cone animation="property: position; to: 0 10 10; dur: 1000; easing: linear; loop: true" color="yellow" radius-bottom="2" radius-top="0.5" position="0 3 0"></a-cone>
         <a-box onmouseenter="box_enter()" onmouseleave="box_exit()" animation="property: rotation; to: 360 360 360; dur: 1000; easing: linear; loop: true" position="0 3 -3" rotation="0 45 45" color="#d10808"></a-box>
@@ -34,6 +33,8 @@
         <a-camera>
             <a-cursor></a-cursor>
         </a-camera>
+        <a-sound src="src: url(sad-meow-song.mp3)" autoplay="true" position="-3 3 5"></a-sound>
     </a-scene>
 </body>
 </html>
+
